@@ -4,98 +4,36 @@ height: 100%;
 margin:0;
 padding: 0;
 font-weight: bold;
+font-family: Merienda;
 }
-
-
 
 .sun{
-background: radial-gradient(#fff000,#f9d71c);
 height: 200px;
 width: 200px;
-border-radius: 100%;
-box-shadow: 0 0 15px 15px #fff444;
-}
-
-.eye {
-  position: absolute;
-  background-color: #262626;
-  height: 0.62em;
-  width: 0.62em;
-  border-radius: 50%;
-  top: 9.5em;
-  left: 4em;
-  box-shadow: 2.6em 0 #262626;
-}
-
-.ball{
-  position: absolute;
-  background-color: hotpink;
-  height: 0.62em;
-  width: 0.62em;
-  border-radius: 50%;
-  top: 10.5em;
-  left: 3.7em;
-  box-shadow: 3.2em 0 hotpink;
-}
-
-
-.mouth {
- width: 15px;
- height: 8px;
- display: block;
- position: absolute;
- top: 10em;
- left: 5.2em;
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
-   border: 5px solid #151843;
-   border-top: 0;
 }
 
 .moon{
-background: radial-gradient(#ccc,#ebf3fe);
 height: 200px;
 width: 200px;
-border-radius: 100%;
-box-shadow: 0 0 15px 15px #fff;
-}
-
-@media (min-width: 500px) {
-
-.eye {
-  position: absolute;
-  background-color: #262626;
-  height: 0.62em;
-  width: 0.62em;
-  border-radius: 50%;
-  top: 3.4em;
-  left:9.9em;
-  box-shadow: 2.6em 0 #262626;
-}
-
-.mouth {
-  width: 15px;
-  height: 8px;
-  display: block;
-  position: absolute;
-  top: 4em;
-  left: 11.1em;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border: 5px solid #151843;
-  border-top: 0;
-  
-}
-
-.ball{
-  position: absolute;
-  background-color: hotpink;
-  height: 0.62em;
-  width: 0.62em;
-  border-radius: 50%;
-  top: 4.4em;
-  left: 9.7em;
-  box-shadow: 3em 0 hotpink;
-}
 
 }
+
+
+.day{
+padding: 10px;
+width: 250px;
+background: #ffea00;
+border-radius:20px;
+color: coral;
+box-shadow: 0 0 10px 10px #ffc000;
+}
+
+.night{
+padding: 10px;
+width: 250px;
+background: #ddd;
+border-radius:20px;
+color: rgb(47, 0, 90);
+box-shadow: 0 0 10px 10px #fff;
+}
+
