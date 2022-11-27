@@ -31,9 +31,9 @@ box-shadow: 0 0 10px 10px #ffc000;
 .night{
 padding: 10px;
 width: 250px;
-background: #ddd;
+background: #eee;
 border-radius:20px;
-color: rgb(47, 0, 90);
+color: rgb(106, 90, 205);
 box-shadow: 0 0 10px 10px #fff;
 }
 
