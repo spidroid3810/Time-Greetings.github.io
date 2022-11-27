@@ -24,7 +24,7 @@ box-shadow: 0 0 15px 15px #fff444;
   border-radius: 50%;
   top: 9.5em;
   left: 4em;
-  box-shadow: 2.5em 0 #262626;
+  box-shadow: 2.6em 0 #262626;
 }
 
 .ball{
@@ -34,30 +34,33 @@ box-shadow: 0 0 15px 15px #fff444;
   width: 0.62em;
   border-radius: 50%;
   top: 10.5em;
-  left: 3.8em;
-  box-shadow: 3em 0 hotpink;
+  left: 3.7em;
+  box-shadow: 3.2em 0 hotpink;
 }
 
 
 .mouth {
-  position: absolute;
-  border-bottom: 5px solid #262626;
-  height: 0.70em;
-  width: 0.90em;
-  border-radius: 50%;
-  top: 10em;
-  left: 5.1em;
+ width: 15px;
+ height: 8px;
+ display: block;
+ position: absolute;
+ top: 10em;
+ left: 5.2em;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border: 5px solid #151843;
+   border-top: 0;
 }
 
 .moon{
-background: #ddd;
+background: radial-gradient(#ccc,#ebf3fe);
 height: 200px;
 width: 200px;
 border-radius: 100%;
 box-shadow: 0 0 15px 15px #fff;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
 
 .eye {
   position: absolute;
@@ -67,17 +70,21 @@ box-shadow: 0 0 15px 15px #fff;
   border-radius: 50%;
   top: 3.4em;
   left:9.9em;
-  box-shadow: 2.5em 0 #262626;
+  box-shadow: 2.6em 0 #262626;
 }
 
 .mouth {
+  width: 15px;
+  height: 8px;
+  display: block;
   position: absolute;
-  border-bottom: 5px solid #262626;
-  height: 0.70em;
-  width: 0.90em;
-  border-radius: 50%;
-  top: 3.9em;
-  left: 11em;
+  top: 4em;
+  left: 11.1em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 5px solid #151843;
+  border-top: 0;
+  
 }
 
 .ball{
@@ -92,4 +99,3 @@ box-shadow: 0 0 15px 15px #fff;
 }
 
 }
-
